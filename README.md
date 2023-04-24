@@ -1,2 +1,2 @@
 # Geo Utils
-Some Python geospatial utility functions I routiley use
+Some Python geospatial utility functions I routinely use
