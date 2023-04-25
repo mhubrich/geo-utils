@@ -6,7 +6,7 @@
   <h3 align="center">Geo Utils</h3>
 
   <p align="center">
-    A collection of geospatial utility functions in Python
+    A Collection of Geospatial Utility Functions in Python
   </p>
 </div>
 <br />
@@ -27,11 +27,20 @@ There are a number of geospatial functions I frequently use in coding projects. 
 - [`to_circle`](https://github.com/mhubrich/geo-utils/blob/abb4111965f3c8f9dec45f347004c2640940f56f/utils.py#L63-L65): Creates a circle from a given point and radius
 - [`to_single_geometry`](https://github.com/mhubrich/geo-utils/blob/abb4111965f3c8f9dec45f347004c2640940f56f/utils.py#L68-L79): Converts multi-geometries to single-geometries
 - [`remove_holes`](https://github.com/mhubrich/geo-utils/blob/abb4111965f3c8f9dec45f347004c2640940f56f/beautify_polygons.py#L52-L55): Removes holes in polygons
-- [`remove_small_polygons`](https://github.com/mhubrich/geo-utils/blob/abb4111965f3c8f9dec45f347004c2640940f56f/beautify_polygons.py#L58-L64): Removes tiny geometries (artifacts)
+- [`remove_small_polygons`](https://github.com/mhubrich/geo-utils/blob/abb4111965f3c8f9dec45f347004c2640940f56f/beautify_polygons.py#L58-L64): Removes tiny geometries (= artifacts)
 - [`simplify`](https://github.com/mhubrich/geo-utils/blob/abb4111965f3c8f9dec45f347004c2640940f56f/simplify_geometries.py#L42-L56): Simplifies geometries (reduces amount of nodes)
 - [`compress`](https://github.com/mhubrich/geo-utils/blob/abb4111965f3c8f9dec45f347004c2640940f56f/simplify_geometries.py#L71-L84): Compresses geometries (reduces amount of floating point digits of nodes)
 
 ## Dependencies
+Python packages used in this project:
+- `pandas`
+- `geopandas`
+- `shapely`
+- `pyproj`
+- `numpy`
+- `json`
+- `argparse`
+- `functools`
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
